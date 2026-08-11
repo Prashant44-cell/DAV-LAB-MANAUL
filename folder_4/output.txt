@@ -1,0 +1,39 @@
+======================================================================
+Ex. No: 4 - READING DATA FROM TEXT FILES, EXCEL, AND THE WEB
+======================================================================
+
+SAMPLE INPUT:
+text_df = pd.read_csv('Google_data (2b.c1).csv')
+excel_df = pd.read_excel('data (2c2).xlsx', sheet_name='Sheet1')
+
+----------------------------------------------------------------------
+SAMPLE OUTPUT:
+----------------------------------------------------------------------
+Text CSV Data Head:
+                                                  App  ...   Android Ver
+0     Photo Editor & Candy Camera & Grid & ScrapBook  ...  4.0.3 and up
+1                                Coloring book moana  ...  4.0.3 and up
+2  U Launcher Lite – FREE Live Cool Themes, Hide ...  ...  4.0.3 and up
+3                              Sketch - Draw & Paint  ...    4.2 and up
+4              Pixel Draw - Number Art Coloring Book  ...    4.4 and up
+
+[5 rows x 13 columns]
+Excel Data Head:
+       Product  Price  Quantity
+0      Laptop   1000         5
+1  Smartphone    800         8
+2      Tablet    500        10
+3  Headphones    100        15
+Web Data Head:
+     Country  Region
+0   Algeria  AFRICA
+1    Angola  AFRICA
+2     Benin  AFRICA
+3  Botswana  AFRICA
+4   Burkina  AFRICA
+Processing and export complete.
+
+----------------------------------------------------------------------
+RESULT:
+----------------------------------------------------------------------
+The experiment successfully demonstrated reading data from text files, Excel spreadsheets, and web-based sources using Pandas.

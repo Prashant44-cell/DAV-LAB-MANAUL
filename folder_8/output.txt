@@ -1,0 +1,17 @@
+======================================================================
+Ex. No: 8 - STATISTICAL ANALYSIS USING DIABETES DATASETS – MULTIPLE REGRESSION ANALYSIS
+======================================================================
+
+SAMPLE INPUT:
+features = ['Glucose', 'BloodPressure', 'Age'], target = 'BMI'
+
+----------------------------------------------------------------------
+SAMPLE OUTPUT:
+----------------------------------------------------------------------
+UCI Diabetes Dataset - Multiple Regression R² Score: -0.0614
+Pima Indians Diabetes Dataset - Multiple Regression R² Score: -0.2987
+
+----------------------------------------------------------------------
+RESULT:
+----------------------------------------------------------------------
+Multiple Regression analysis predicts BMI using Glucose, Blood Pressure, and Age. Differences in R² scores indicate variations in data distribution and model performance.

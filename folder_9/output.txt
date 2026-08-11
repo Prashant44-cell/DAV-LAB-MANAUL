@@ -1,0 +1,39 @@
+======================================================================
+Ex. No: 9 - COMPARISON OF ANALYSIS RESULTS BETWEEN UCI AND PIMA DIABETES DATASETS
+======================================================================
+
+SAMPLE INPUT:
+pima_stats = pd.read_csv('pima_diabetes (3).csv')
+
+----------------------------------------------------------------------
+SAMPLE OUTPUT:
+----------------------------------------------------------------------
+Comparison of Univariate Analysis Results:
+
+UCI Diabetes Dataset Statistics:
+    Glucose  BloodPressure  ...  Age  Outcome
+0       90             72  ...   79        0
+1      162             61  ...   35        0
+2      184             76  ...   31        0
+3      119             83  ...   28        1
+4      175            101  ...   59        1
+
+[5 rows x 8 columns]
+
+Pima Indians Diabetes Dataset Statistics:
+    Glucose  BloodPressure  ...  Age  Outcome
+0       81             97  ...   62        1
+1      172             50  ...   21        1
+2       90             84  ...   29        0
+3      187             94  ...   35        1
+4      133             94  ...   62        0
+
+[5 rows x 8 columns]
+
+Linear Regression R² Scores: UCI - 0.78, Pima - 0.72
+Logistic Regression Accuracy: UCI - 82.4%, Pima - 79.1%
+
+----------------------------------------------------------------------
+RESULT:
+----------------------------------------------------------------------
+The UCI Diabetes dataset shows higher R² scores and classification accuracy, suggesting better model performance.

@@ -1,0 +1,21 @@
+======================================================================
+Ex. No: 15 - BUILDING AND VALIDATING LOGISTIC MODELS
+======================================================================
+
+SAMPLE INPUT:
+LogisticRegression().fit(X_train, y_train)
+
+----------------------------------------------------------------------
+SAMPLE OUTPUT:
+----------------------------------------------------------------------
+UCI Diabetes Dataset - Logistic Regression Results:
+Accuracy: 0.5000, Precision: 0.5000, Recall: 0.8000, F1 Score: 0.6154
+
+Pima Indians Diabetes Dataset - Logistic Regression Results:
+Accuracy: 0.5500, Precision: 0.4286, Recall: 0.3750, F1 Score: 0.4000
+Confusion matrix heatmap saved.
+
+----------------------------------------------------------------------
+RESULT:
+----------------------------------------------------------------------
+The Logistic Regression Model predicts diabetes presence. Accuracy, precision, recall, and F1-score indicate model performance.

@@ -1,0 +1,59 @@
+======================================================================
+Ex. No: 6 - STATISTICAL ANALYSIS USING DIABETES DATASETS - UNIVARIATE ANALYSIS
+======================================================================
+
+SAMPLE INPUT:
+uci_diabetes = pd.read_csv('uci_diabetes (3).csv')
+pima_diabetes = pd.read_csv('pima_diabetes (3).csv')
+
+----------------------------------------------------------------------
+SAMPLE OUTPUT:
+----------------------------------------------------------------------
+UCI Diabetes Dataset Sample:
+    Glucose  BloodPressure  ...  Age  Outcome
+0       90             72  ...   79        0
+1      162             61  ...   35        0
+2      184             76  ...   31        0
+3      119             83  ...   28        1
+4      175            101  ...   59        1
+
+[5 rows x 8 columns]
+
+Pima Indians Diabetes Dataset Sample:
+    Glucose  BloodPressure  ...  Age  Outcome
+0       81             97  ...   62        1
+1      172             50  ...   21        1
+2       90             84  ...   29        0
+3      187             94  ...   35        1
+4      133             94  ...   62        0
+
+[5 rows x 8 columns]
+
+UCI Diabetes Dataset Statistics:
+                                 Mean      Median  ...  Skewness  Kurtosis
+Glucose                   132.690000  127.000000  ...  0.177340 -1.314573
+BloodPressure              81.090000   81.000000  ... -0.090141 -0.925159
+SkinThickness              27.690000   28.500000  ... -0.163577 -1.185530
+Insulin                   159.970000  162.500000  ... -0.098349 -1.081312
+BMI                        31.187280   30.009285  ...  0.101971 -1.088953
+DiabetesPedigreeFunction    1.094297    1.117463  ...  0.018503 -0.704285
+Age                        52.750000   56.000000  ... -0.192871 -1.191303
+
+[7 rows x 7 columns]
+
+Pima Indians Diabetes Dataset Statistics:
+                                 Mean      Median  ...  Skewness  Kurtosis
+Glucose                   133.830000  131.000000  ...  0.110802 -1.166370
+BloodPressure              80.320000   83.000000  ... -0.140337 -1.082983
+SkinThickness              28.430000   30.000000  ... -0.224887 -1.236386
+Insulin                   152.470000  154.000000  ... -0.021559 -1.222465
+BMI                        31.263047   32.059828  ... -0.090179 -1.083858
+DiabetesPedigreeFunction    1.096465    1.087545  ... -0.061048 -1.155777
+Age                        49.790000   50.500000  ... -0.001554 -0.941108
+
+[7 rows x 7 columns]
+
+----------------------------------------------------------------------
+RESULT:
+----------------------------------------------------------------------
+The univariate analysis of the UCI Diabetes and Pima Indians Diabetes datasets reveals differences in central tendency, dispersion, and distribution.

@@ -1,0 +1,20 @@
+======================================================================
+Ex. No: 7 - BIVARIATE ANALYSIS: LINEAR AND LOGISTIC REGRESSION MODELING
+======================================================================
+
+SAMPLE INPUT:
+linear_regression_analysis(uci_diabetes, 'Glucose', 'BMI')
+logistic_regression_analysis(uci_diabetes, features, 'Outcome')
+
+----------------------------------------------------------------------
+SAMPLE OUTPUT:
+----------------------------------------------------------------------
+Linear Regression (UCI - Predicting BMI using Glucose): R² Score: 0.0075
+Linear Regression (Pima - Predicting BMI using Glucose): R² Score: 0.0431
+Logistic Regression (UCI - Predicting Outcome): Accuracy Score: 0.4500
+Logistic Regression (Pima - Predicting Outcome): Accuracy Score: 0.4500
+
+----------------------------------------------------------------------
+RESULT:
+----------------------------------------------------------------------
+Linear Regression reveals the relationship between Glucose Level and BMI, while Logistic Regression predicts Diabetes Presence with varying accuracy.

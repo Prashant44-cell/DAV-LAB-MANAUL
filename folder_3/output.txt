@@ -1,0 +1,93 @@
+======================================================================
+Ex. No: 3 - WORKING WITH PANDAS DATAFRAMES
+======================================================================
+
+SAMPLE INPUT:
+import pandas as pd
+df = pd.read_csv('data.csv')
+
+----------------------------------------------------------------------
+SAMPLE OUTPUT:
+----------------------------------------------------------------------
+First 5 rows:
+                                                  App  ...   Android Ver
+0     Photo Editor & Candy Camera & Grid & ScrapBook  ...  4.0.3 and up
+1                                Coloring book moana  ...  4.0.3 and up
+2  U Launcher Lite – FREE Live Cool Themes, Hide ...  ...  4.0.3 and up
+3                              Sketch - Draw & Paint  ...    4.2 and up
+4              Pixel Draw - Number Art Coloring Book  ...    4.4 and up
+
+[5 rows x 13 columns]
+Last 5 rows:
+                                               App  ...         Android Ver
+95                               Sya9a Maroc - FR  ...          4.1 and up
+96               Fr. Mike Schmitz Audio Teachings  ...          4.1 and up
+97                         Parkinson Exercices FR  ...          2.2 and up
+98                  The SCP Foundation DB fr nn5n  ...  Varies with device
+99  iHoroscope - 2018 Daily Horoscope & Astrology  ...  Varies with device
+
+[5 rows x 13 columns]
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 100 entries, 0 to 99
+Data columns (total 13 columns):
+ #   Column          Non-Null Count  Dtype  
+---  ------          --------------  -----  
+ 0   App             100 non-null    object 
+ 1   Category        100 non-null    object 
+ 2   Rating          80 non-null     float64
+ 3   Reviews         100 non-null    int64  
+ 4   Size            100 non-null    object 
+ 5   Installs        100 non-null    object 
+ 6   Type            100 non-null    object 
+ 7   Price           100 non-null    int64  
+ 8   Content Rating  100 non-null    object 
+ 9   Genres          100 non-null    object 
+ 10  Last Updated    100 non-null    object 
+ 11  Current Ver     100 non-null    object 
+ 12  Android Ver     100 non-null    object 
+dtypes: float64(1), int64(2), object(10)
+memory usage: 10.3+ KB
+Summary statistics:
+           Rating        Reviews  Price
+count  80.000000     100.000000  100.0
+mean    4.335000   55671.890000    0.0
+std     0.245001   49764.339902    0.0
+min     3.900000       3.000000    0.0
+25%     4.200000   23515.750000    0.0
+50%     4.400000   53658.500000    0.0
+75%     4.600000   83892.000000    0.0
+max     5.000000  398307.000000    0.0
+Series addition:
+ 0    14.1
+1    13.9
+2    14.7
+3    14.5
+4    14.3
+Name: Rating, dtype: float64
+Filtered DataFrame shape: (77, 14)
+Grouped mean:
+ Category
+ART_AND_DESIGN         4.300000
+BOOKS_AND_REFERENCE    4.500000
+BUSINESS               4.230000
+FAMILY                 4.436667
+GAME                   4.360500
+Name: Rating, dtype: float64
+Sorted DataFrame:
+                                                   App  ... new_column
+96                   Fr. Mike Schmitz Audio Teachings  ...       10.0
+2   U Launcher Lite – FREE Live Cool Themes, Hide ...  ...        9.4
+25                                             App_20  ...        9.2
+92                                             App_87  ...        9.2
+47                                             App_42  ...        9.2
+
+[5 rows x 14 columns]
+Masked DataFrame shape: (44, 14)
+Total sum: 433.50000000000006
+Mean: 4.335000000000001
+Standard Deviation: 0.21885837863556845
+
+----------------------------------------------------------------------
+RESULT:
+----------------------------------------------------------------------
+The experiment successfully demonstrated various Pandas operations, including loading and inspecting data, handling missing values, transformations, filtering, grouping, sorting, and exporting data.

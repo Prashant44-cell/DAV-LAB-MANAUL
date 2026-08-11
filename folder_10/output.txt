@@ -1,0 +1,18 @@
+======================================================================
+Ex. No: 10 - DATA VISUALIZATION – NORMAL CURVES ON UCI DIABETES DATASET
+======================================================================
+
+SAMPLE INPUT:
+sns.histplot(uci_diabetes['Glucose'], kde=True, stat='density')
+
+----------------------------------------------------------------------
+SAMPLE OUTPUT:
+----------------------------------------------------------------------
+Normal Curve - Glucose Mean: 132.69
+Normal Curve - BMI Mean: 31.187279767443716
+Normal curves generated and saved.
+
+----------------------------------------------------------------------
+RESULT:
+----------------------------------------------------------------------
+The normal curves show the distribution of Glucose and BMI, indicating data spread and skewness.

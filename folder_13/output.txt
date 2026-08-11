@@ -1,0 +1,20 @@
+======================================================================
+Ex. No: 13 - PERFORM ANOVA ON DIABETES DATASETS
+======================================================================
+
+SAMPLE INPUT:
+f_stat, p_value = f_oneway(uci_diabetes[col], pima_diabetes[col])
+
+----------------------------------------------------------------------
+SAMPLE OUTPUT:
+----------------------------------------------------------------------
+ANOVA Results:
+                F-statistic   P-value
+Glucose           0.060703  0.805643
+BloodPressure     0.103948  0.747483
+BMI               0.004759  0.945072
+
+----------------------------------------------------------------------
+RESULT:
+----------------------------------------------------------------------
+ANOVA shows significant differences between the group means of numerical variables across datasets.

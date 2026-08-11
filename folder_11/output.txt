@@ -1,0 +1,18 @@
+======================================================================
+Ex. No: 11 - HYPOTHESIS TESTING – Z-TEST ON UCI DIABETES DATASET
+======================================================================
+
+SAMPLE INPUT:
+z_stat, p_value = ztest(uci_diabetes['Glucose'], value=100)
+
+----------------------------------------------------------------------
+SAMPLE OUTPUT:
+----------------------------------------------------------------------
+Z-Statistic: 9.7835
+P-Value: 0.0000
+Reject the null hypothesis: The mean Glucose level is significantly different from 100.
+
+----------------------------------------------------------------------
+RESULT:
+----------------------------------------------------------------------
+The Z-test helps determine whether the mean Glucose level in the UCI Diabetes dataset is significantly different from 100.

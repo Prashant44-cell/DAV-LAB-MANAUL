@@ -1,0 +1,20 @@
+======================================================================
+Ex. No: 14 - BUILDING AND VALIDATING LINEAR MODELS
+======================================================================
+
+SAMPLE INPUT:
+LinearRegression().fit(X_train, y_train)
+
+----------------------------------------------------------------------
+SAMPLE OUTPUT:
+----------------------------------------------------------------------
+UCI Diabetes Dataset - Linear Regression Results:
+R² Score: 0.0374, MSE: 339.1963, MAE: 15.8712
+
+Pima Indians Diabetes Dataset - Linear Regression Results:
+R² Score: -0.0255, MSE: 279.6231, MAE: 14.0802
+
+----------------------------------------------------------------------
+RESULT:
+----------------------------------------------------------------------
+The Linear Regression Model establishes relationships between independent variables and the target variable. R² Score, MSE, and MAE indicate model performance.
